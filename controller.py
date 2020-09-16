@@ -44,3 +44,7 @@ class Controller:
     def kustuta_element(self, nimetus):
         self.mudel.kustuta_element(nimetus)
         self.vaade.kustuta_element(nimetus)
+
+    def kustuta_elemendid(self):
+        self.mudel.kustuta_elemendid()
+        self.vaade.kustuta_elemendid()

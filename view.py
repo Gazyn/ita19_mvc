@@ -40,3 +40,5 @@ class View:
         print("Elemendi {} kustutamine".format(nimetus))
         print("Element {} on kustutatud elementide nimekirjast".format(nimetus))
 
+    def kustuta_elemendid(self):
+        print("Kõikide elementide kustutamine")

@@ -27,3 +27,6 @@ pood.uuenda_element("vein", 10.0, 10)
 pood.kuva_elemendid()
 pood.kustuta_element("vein")
 pood.kuva_elemendid()
+# kõikide elementide kustutamine
+pood.kustuta_elemendid()
+pood.kuva_elemendid()
