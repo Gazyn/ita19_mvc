@@ -4,13 +4,13 @@ class View:
         print("|\tnimi \t|\t hind \t|\t kogus\t|")
         print("-------------------------------------")
         for element in elemendid:
-            print("|\t"+element['nimetus']+" \t|\t "+str(element['hind'])+" \t|\t "+str(element['kogus'])+"\t|")
+            print("|\t"+element['nimetus']+" \t|\t "+str(element['hind'])+" \t|\t "+str(element['kogus'])+" \t|")
 
     def kuva_element(self, nimetus, element):
         print("Kuvame {} elementi andmed".format(nimetus))
         print("|\tnimi \t|\t hind \t|\t kogus\t|")
         print("-------------------------------------")
-        print("|\t"+element['nimetus']+" \t|\t "+str(element['hind'])+" \t|\t "+str(element['kogus'])+"\t|")
+        print("|\t"+element['nimetus']+" \t|\t "+str(element['hind'])+" \t|\t "+str(element['kogus'])+" \t|")
 
     def lisa_element(self, nimetus, hind, kogus):
         print("Elemendi lisamine")
